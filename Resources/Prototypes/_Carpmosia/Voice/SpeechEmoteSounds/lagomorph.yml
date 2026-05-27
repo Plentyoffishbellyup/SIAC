@@ -1,0 +1,57 @@
+- type: emoteSounds
+  id: LagomorphBodyEmotes
+  sounds:
+    Stomp:
+      path: /Audio/Voice/Reptilian/reptilian_tailthump.ogg
+      params:
+        variation: 0.125
+    Clap:
+      collection: Claps
+    ClapSingle:
+      collection: ClapSingle
+    Snap:
+      collection: Snaps
+      params:
+        volume: -6
+    Salute:
+      collection: Salutes
+
+- type: emoteSounds
+  id: MaleLagomorph
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/_Carpmosia/Voice/Avali/avali_scream.ogg # TODO: lagomorph speech & emote sounds
+    Laugh:
+      path: /Audio/_Carpmosia/Voice/Avali/avali_laugh.ogg # ditto
+    Honk:
+      collection: BikeHorn
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: DeathGasp
+
+- type: emoteSounds
+  id: FemaleLagomorph
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/_Carpmosia/Voice/Avali/avali_scream.ogg # ditto
+    Laugh:
+      path: /Audio/_Carpmosia/Voice/Avali/avali_laugh.ogg # ditto
+    Honk:
+      collection: BikeHorn
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp

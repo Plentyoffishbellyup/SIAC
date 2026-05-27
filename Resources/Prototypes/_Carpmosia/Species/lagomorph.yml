@@ -1,0 +1,12 @@
+- type: species
+  id: Lagomorph
+  name: species-name-lagomorph
+  roundStart: true
+  prototype: MobLagomorph
+  defaultSkinTone: "#b6905b"
+  dollPrototype: AppearanceLagomorph
+  skinColoration: VulpkaninColors
+  maleFirstNames: NamesLagomorphMasc
+  femaleFirstNames: NamesLagomorphFem
+  lastNames: NamesLagomorphLast
+  naming: LastFirst

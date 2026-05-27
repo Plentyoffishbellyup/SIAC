@@ -1,0 +1,20 @@
+# see lagomorph_ears.yml for a contributor guide
+- type: marking
+  id: LagomorphSnoutBasic
+  bodyPart: Snout
+  groupWhitelist: [ Lagomorph ]
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/snout.rsi
+    state: basic
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/snout.rsi
+    state: basic-nose
+
+- type: marking
+  id: LagomorphSnoutFluffy
+  bodyPart: Snout
+  groupWhitelist: [ Lagomorph ]
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/snout.rsi
+    state: basic
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/snout.rsi
+    state: basic-nose-fluff

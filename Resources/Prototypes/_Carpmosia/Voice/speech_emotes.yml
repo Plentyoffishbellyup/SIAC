@@ -1,0 +1,30 @@
+- type: emote
+  id: Stomp
+  name: chat-emote-name-stomp
+  category: Hands
+  available: false
+  icon: { sprite: /Textures/_Carpmosia/Interface/emotes.rsi, state: stomp }
+  whitelist:
+    components:
+    - Hands
+  blacklist:
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-stomp"]
+  chatTriggers:
+  - stomp
+  - stomps
+  - stomping
+  - stomped
+  - stomp foot
+  - stomps foot
+  - stomps their foot
+  - stomps her foot
+  - stomps his foot
+  - stomps its foot
+  - stomp feet
+  - stomps feet
+  - stomps their feet
+  - stomps her feet
+  - stomps his feet
+  - stomps its feet

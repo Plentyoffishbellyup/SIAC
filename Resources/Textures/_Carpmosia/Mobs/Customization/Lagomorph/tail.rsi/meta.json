@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Authored by arenaconspiracy (github)",
+    "size": {"x": 32, "y": 32},
+    "states": [
+        {
+            "name": "basic",
+	    "directions": 4
+        },
+        {
+            "name": "basic-tip",
+	    "directions": 4
+        },
+        {
+            "name": "block",
+	    "directions": 4
+        },
+        {
+            "name": "block-tip",
+	    "directions": 4
+        },
+        {
+            "name": "round",
+	    "directions": 4
+        }
+    ]
+}

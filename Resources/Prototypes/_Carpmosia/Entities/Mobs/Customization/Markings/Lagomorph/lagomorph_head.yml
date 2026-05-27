@@ -1,0 +1,8 @@
+# see lagomorph_ears.yml for a contributor guide
+- type: marking
+  id: LagomorphHeadEyemask
+  bodyPart: Head
+  groupWhitelist: [ Lagomorph ]
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head.rsi
+    state: eyemask

@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Authored by arenaconspiracy (github)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "basic",
+            "directions": 4
+        },
+        {
+            "name": "basic-inner",
+            "directions": 4
+        },
+        {
+            "name": "long",
+            "directions": 4
+        },
+        {
+            "name": "long-inner",
+            "directions": 4
+        },
+        {
+            "name": "lop",
+            "directions": 4
+        },
+        {
+            "name": "lop-inner",
+            "directions": 4
+        },
+        {
+            "name": "ramrod",
+            "directions": 4
+        },
+        {
+            "name": "ramrod-inner",
+            "directions": 4
+        },
+        {
+            "name": "round",
+            "directions": 4
+        },
+        {
+            "name": "round-inner",
+            "directions": 4
+        },
+        {
+            "name": "short",
+            "directions": 4
+        },
+        {
+            "name": "short-inner",
+            "directions": 4
+        },
+        {
+            "name": "torn-left",
+            "directions": 4
+        },
+        {
+            "name": "torn-left-inner",
+            "directions": 4
+        },
+        {
+            "name": "torn-right",
+            "directions": 4
+        },
+        {
+            "name": "torn-right-inner",
+            "directions": 4
+        }
+    ]
+}

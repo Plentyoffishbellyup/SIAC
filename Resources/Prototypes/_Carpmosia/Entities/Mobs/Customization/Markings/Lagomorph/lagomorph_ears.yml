@@ -1,0 +1,96 @@
+## CONTRIBUTOR GUIDE:
+# - The textured fur on the species was made using a checkered overlay applied to the individual bodyparts
+# Resources/Textures/_Carpmosia/Mobs/Species/Lagomorph/ contains an XCF session file authored in GIMP 2.10
+# It contains the overlay & body sprites, which you can use as example or work with further.
+# If you're new to it, use GIMP 2.10 instead of 3.0, the latter is a function & experience downgrade.
+# - Most ear marking sprites are several pixels lower than the head, they need to be offset at runtime to compensate.
+# - Make sure the base of ear south sprites don't overlap the head, for the sake of head markings that wrap around the face.
+# - Lagomorph ears layer beneath hair, unlike other species.
+# - Tails layer above hands, be careful with the side view.
+
+- type: marking
+  id: LagomorphEarsBasic
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  offset: "0, 0.0625" # 1/16 of a tile, two pixels
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: basic
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: basic-inner
+
+- type: marking
+  id: LagomorphEarsLop
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  sprites: # no offset because these go down
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: lop
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: lop-inner
+
+- type: marking
+  id: LagomorphEarsLong
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  offset: "0, 0.0625"
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: long
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: long-inner
+
+- type: marking
+  id: LagomorphEarsRamrod
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  offset: "0, 0.0625"
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: ramrod
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: ramrod-inner
+
+- type: marking
+  id: LagomorphEarsRound
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  offset: "0, 0.0625"
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: round
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: round-inner
+
+- type: marking
+  id: LagomorphEarsShort
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  offset: "0, 0.0625"
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: short
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: short-inner
+
+- type: marking
+  id: LagomorphEarsTornLeft
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  offset: "0, 0.0625"
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: torn-left
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: torn-left-inner
+
+- type: marking
+  id: LagomorphEarsTornRight
+  bodyPart: HeadTop
+  groupWhitelist: [ Lagomorph ]
+  offset: "0, 0.0625"
+  sprites:
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: torn-right
+  - sprite: _Carpmosia/Mobs/Customization/Lagomorph/head_top.rsi
+    state: torn-right-inner
